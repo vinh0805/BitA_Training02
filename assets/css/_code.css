@@ -1,0 +1,43 @@
+pre, .pre  {
+  overflow-x: auto;
+  overflow-y: hidden;
+  overflow:   scroll;
+}
+
+
+pre  code {
+  display: block;
+  padding: 1.5em 1.5em;
+  white-space: pre;
+  font-size: .875rem;
+  line-height: 2;
+
+}
+
+pre {
+  background-color: #222;
+  color: #ddd;
+  white-space: pre;
+
+  hyphens: none;
+  position: relative;
+}
+
+.main-content {
+  min-height: 90vh;
+  background-image: url('https://img.freepik.com/free-photo/blue-abstract-gradient-wave-wallpaper_53876-108364.jpg?w=1480&t=st=1678357691~exp=1678358291~hmac=85dc1d8267b23703cc8a06209b1da0fd11ceefd4f430c9755408f9311c9581a6');
+  background-size: 100% 100%;
+}
+
+.header01 {
+  background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000');
+}
+
+.main-sumary {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+}
