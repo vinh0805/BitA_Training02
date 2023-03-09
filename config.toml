@@ -1,4 +1,4 @@
 baseURL = 'http://test.org/'
 languageCode = 'en-us'
-title = 'Vinh Personal Blog'
+title = "Vinh's Personal Blog"
 theme = 'ananke'
